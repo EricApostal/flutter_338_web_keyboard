@@ -1,5 +1,5 @@
-# Flutter 3.38.* Android Keyboard Issue
-When using Flutter 3.38.*, pressing the down arrow on the keyboard will not remove the spacing provided by the keyboard.
+# Flutter 3.38.* Web Android Keyboard Issue
+When using Flutter 3.38.* on Android Web, pressing the down arrow on the keyboard will not remove the spacing provided by the keyboard.
 
 ## Instructions to reproduce
 - Clone this repo
