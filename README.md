@@ -9,3 +9,5 @@ When using Flutter 3.38.*, pressing the down arrow on the keyboard will not remo
 - Tap the text field
 - Click the down arrow on your system's keyboard
 - Observe the underlying `index.html` taking up that space
+
+For the issue: https://github.com/flutter/flutter/issues/175074
