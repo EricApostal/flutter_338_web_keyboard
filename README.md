@@ -11,3 +11,5 @@ When using Flutter 3.38.* on Android Web, pressing the down arrow on the keyboar
 - Observe the underlying `index.html` taking up that space
 
 For the issue: https://github.com/flutter/flutter/issues/175074
+
+https://github.com/user-attachments/assets/7d6db193-21eb-4313-b948-28cdde11f5e2
