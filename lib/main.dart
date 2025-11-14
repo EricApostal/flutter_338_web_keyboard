@@ -15,6 +15,11 @@ class MainApp extends StatefulWidget {
 class _MainAppState extends State<MainApp> {
   @override
   Widget build(BuildContext context) {
+    /*
+    I'm forcing the theme so the soft blue background is obvious
+    Just making it clear that it's happening outside of the Flutter canvas
+    */
+
     final theme = ThemeData(
       colorScheme: ColorScheme.fromSeed(
         seedColor: Color.fromARGB(255, 84, 127, 255),
@@ -30,8 +35,6 @@ class _MainAppState extends State<MainApp> {
 }
 
 class _AppContent extends StatefulWidget {
-  const _AppContent({super.key});
-
   @override
   State<_AppContent> createState() => _AppContentState();
 }
@@ -88,6 +91,8 @@ Changing my phone's theme from light to dark and vice-versa will get it out of t
               ),
             ),
             SizedBox(width: 8),
+
+            // just to demonstrate that clicking this usually unbugs it
             FilledButton.icon(
               onPressed: () {
                 HapticFeedback.lightImpact();
